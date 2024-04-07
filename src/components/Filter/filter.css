@@ -1,0 +1,147 @@
+/* side show hide animation */
+@keyframes slideOff {
+  from {
+    display: block;
+  }
+  to {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+}
+
+.hide {
+  animation: slideOff 200ms;
+  display: none;
+}
+
+@keyframes slideOn {
+  from {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+  to {
+    display: block;
+  }
+}
+
+.show {
+  animation: slideOn 200ms;
+  display: block;
+}
+
+/* dropping animation */
+@keyframes dropDown {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    display: block;
+  }
+}
+
+@keyframes dropUp {
+  from {
+    display: block;
+  }
+  to {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}
+
+.dropdown {
+  animation: dropDown 200ms;
+  display: block;
+}
+
+.dropup {
+  animation: dropUp 200ms;
+  display: none;
+}
+
+/* dropping button */
+@keyframes up {
+  from {
+    display: block;
+  }
+  to {
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes down {
+  from {
+    display: block;
+  }
+  to {
+    transform: rotate(-180deg);
+    opacity: 0;
+  }
+}
+
+.up {
+  animation: up 200ms;
+  display: none;
+}
+
+.down {
+  animation: down 200ms;
+  display: none;
+}
+
+/* filter part style */
+
+.filter-container {
+  width: 94%;
+  list-style-type: none;
+}
+
+.filter-container .menu-drop {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 7px 0px;
+  margin: 3px 0px;
+}
+
+.filters {
+  width: 100%;
+}
+
+.select-btn {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.dropdown {
+  width: 100%;
+}
+.dropdown ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.select-btn .btn-text {
+  font-family: "Simplon Norm";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+.select-btn .select-all {
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+.select-btn .arrow-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

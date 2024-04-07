@@ -1,0 +1,85 @@
+.product-container {
+  margin: 0px 89px;
+}
+
+.product-header-container {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.product-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-count {
+  font-family: "Simplon Norm";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #252020;
+}
+
+.visible-btn {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.show-hide-btn {
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Adobe Caslon Pro";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: right;
+  color: #888792;
+
+  text-decoration: underline;
+}
+
+.show-hide-btn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-header-container select {
+  font-family: "Simplon Norm";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  border: none;
+  outline: none;
+  color: #252020;
+}
+
+.product-header-container select option {
+  height: 90px;
+  text-align: right;
+}
+
+.filter-products {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: justify;
+  padding: 0px;
+  margin: 0px 58px;
+}
